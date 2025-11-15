@@ -70,9 +70,18 @@
     <Content Include="ButtonDemo1.aspx" />
     <Content Include="ButtonDemo2.aspx" />
     <Content Include="ButtonDemo3.aspx" />
+    <Content Include="Calculator1.aspx" />
+    <Content Include="Calculator2.aspx" />
+    <Content Include="ColorDialogue.aspx" />
+    <Content Include="Contact.aspx" />
     <Content Include="ControlCreation.aspx" />
+    <Content Include="FailurePage.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Images\ImageBtn.png" />
+    <Content Include="LoginForm.aspx" />
+    <Content Include="LoginPage.aspx" />
+    <Content Include="Respond.aspx" />
+    <Content Include="SucessPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -97,6 +106,34 @@
     <Compile Include="ButtonDemo3.aspx.designer.cs">
       <DependentUpon>ButtonDemo3.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Calculator1.aspx.cs">
+      <DependentUpon>Calculator1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calculator1.aspx.designer.cs">
+      <DependentUpon>Calculator1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calculator2.aspx.cs">
+      <DependentUpon>Calculator2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calculator2.aspx.designer.cs">
+      <DependentUpon>Calculator2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ColorDialogue.aspx.cs">
+      <DependentUpon>ColorDialogue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ColorDialogue.aspx.designer.cs">
+      <DependentUpon>ColorDialogue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ControlCreation.aspx.cs">
       <DependentUpon>ControlCreation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -104,10 +141,45 @@
     <Compile Include="ControlCreation.aspx.designer.cs">
       <DependentUpon>ControlCreation.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FailurePage.aspx.cs">
+      <DependentUpon>FailurePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FailurePage.aspx.designer.cs">
+      <DependentUpon>FailurePage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="LoginForm.aspx.cs">
+      <DependentUpon>LoginForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginForm.aspx.designer.cs">
+      <DependentUpon>LoginForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Respond.aspx.cs">
+      <DependentUpon>Respond.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Respond.aspx.designer.cs">
+      <DependentUpon>Respond.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SucessPage.aspx.cs">
+      <DependentUpon>SucessPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SucessPage.aspx.designer.cs">
+      <DependentUpon>SucessPage.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
